@@ -1,0 +1,111 @@
+// ==========================================================================
+// NAVBAR
+// ==========================================================================//
+
+nav {
+	width: 100%;
+	font-size: 1.4rem;
+	
+	background-color: $black;
+}
+
+nav a {
+    &.highlighted {
+        color: $red;
+    }
+    @include hover($white) {
+        text-decoration: none;
+    }
+}
+
+.nav--logo {
+	display: block;
+	@include line-height(50px);
+	
+	@include transition(font-size 200ms linear);
+	font-size: 1.5em;
+	
+	
+	font-family: $font-family--logo;
+}
+
+.nav--list a {
+    color: $lightgrey;
+}
+
+.nav--list {
+	display: none;
+	border-top: 1px solid $darkgrey;
+	
+	li {
+		@include line-height(2em);
+		
+		//margin applied to children instead of ul to prevent "jumping" on slideToggle()
+		&:last-child {
+			margin-top: 0.4em;
+		}
+		
+		&:last-child {
+			margin-bottom: 0.4em;
+		}
+	}
+}
+
+.nav--hamburger {
+	top: .1em;
+	right: .5em;
+	@extend .rounded;
+	padding: 0em 0.06em;
+	border: 1px solid $trueblack;
+
+	cursor: pointer;
+	color: $white;
+	@include active($lightergrey);
+}
+
+
+//non-mobile features
+
+@include media($sm-min, "min") {
+	
+	nav {
+		@include transition(background-color 200ms linear);
+		background-color: transparent;
+		
+		&.is-small {
+			background-color: $black;
+			
+			.nav--logo {
+				font-size: 1.2em;
+			}
+		}
+	}
+	
+	.nav--logo, .nav--list {
+		float: left;
+	}
+	
+	.nav--logo {
+		//margin-right: 1em;
+		width: 180px;
+		@include line-height(71px);
+	}
+    
+    .nav--logo a {
+        color: $lightgrey;
+    }
+	
+	.nav--list {
+		border: 0;
+		display: inline-block !important;
+		
+		li {
+			display: inline-block !important; //override slideToggle()
+			margin: 0;	
+		}
+	}
+	
+	.nav--hamburger {
+		display: none;
+	}
+}

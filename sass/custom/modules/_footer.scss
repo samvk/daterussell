@@ -1,0 +1,27 @@
+// ==========================================================================
+// FOOTER RULES
+// ==========================================================================//
+
+//vertically center text
+footer [class*='col-'] {
+    height: 2.5em;
+    line-height: 2.4em;
+}
+
+//center text on mobile
+footer .footer--item {
+	@include media($sm) {
+		text-align: center;
+	}
+}
+
+footer .social-links {
+	li {
+		font-size: 1.3em;
+		padding-left: .2em;		
+	}
+	
+	@include media($sm) {
+		margin-left: -.6em; //fix centering issues
+	}
+}

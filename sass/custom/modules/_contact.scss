@@ -1,0 +1,46 @@
+// ==========================================================================
+// CONTACT
+// ==========================================================================//
+
+$input-height: 2.5em;
+
+input, textarea {
+	width: 100%;
+	height: $input-height;
+	margin-bottom: $input-height;
+	padding-left: .5em;
+	font-size: 1em;
+
+	@extend .rounded;
+	border: 1px solid $lightergrey;
+}
+
+input {
+	height: $input-height;
+}
+
+textarea {
+	padding-top: .5em; //match top padding of input fields
+	height: $input-height * 5;
+}
+
+button[type="submit"] {
+	padding: 1.1em 1.5em;
+}
+
+.form-button--wrapper {
+    height: 6em;
+}
+
+//Form states
+.error {
+	color: $black;
+}
+
+.success {
+	color: $red;
+}
+
+.form--disabled {
+    background-color: $lightestgrey;
+}

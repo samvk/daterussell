@@ -1,0 +1,30 @@
+// ==========================================================================
+// SECTIONS and ARTICLES
+// ==========================================================================//
+
+header {	
+	@include media($sm){
+		font-size: .9rem;
+	}
+}
+
+#hi {
+    @include padding-top-bottom(2em, 4em);
+    
+    @include media($sm){
+        font-size: .7rem;
+    }
+
+    p { font-family: $font-family--accent; }
+}
+
+#contact {
+    @include media ($sm-min, "min") {
+        padding-bottom: 20em; //padding to make the section reasonably sized for autoscroll.
+    }
+}
+
+footer {
+    font-size: 1.3rem;
+    @include palette($white, $black);
+}

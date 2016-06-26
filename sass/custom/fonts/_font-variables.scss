@@ -1,0 +1,39 @@
+// ==========================================================================
+// FONT VARIABLES
+// ==========================================================================//
+
+//Import Google Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+//Import Fonts (@include font-face(Name, URL);)
+
+//Fonts
+$font-family--primary: "Lato", Arial, Helvetica, sans-serif;
+$font-family--secondary: "Montserrat", Arial, Helvetica, sans-serif;
+$font-family--accent: "Source Sans Pro", Arial, Helvetica, sans-serif;
+$font-family--logo: "Pacifico", cursive;
+
+
+// Font Weights
+
+$font-weight--thin: 100;
+$font-weight--light: 300;
+$font-weight--medium: 400;
+$font-weight--bold: 700;
+$font-weight--ultra-bold: 900;
+
+//Font Sizes
+
+$font-size--base: 17px;
+
+//Line Heights
+
+$line-height--base: 1.4;
+$line-height--half: 1.2;
+$line-height--none: 1;
+$line-height--2: 1.7;
+$line-height--3: 2;

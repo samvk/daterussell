@@ -1,0 +1,15 @@
+// ==========================================================================
+// TESTIMONIALS
+// ==========================================================================//
+
+.girl-quote {
+    margin-bottom: 80px;
+    
+    @include media($md-min, "min") {
+        margin-top: 100px;
+    }
+}
+
+.girl-pic {
+    border: 2px solid $darkgrey;
+}

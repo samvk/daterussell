@@ -1,0 +1,62 @@
+// ==========================================================================
+// BASE RULES
+// ==========================================================================//
+
+//Default font color
+body {
+    color: $darkgrey;
+}
+
+//Text highlighting
+::selection {
+	@include palette($white, $red);
+}
+
+::-moz-selection {
+	@include palette($white, $red);
+}
+
+//Section rules
+
+section {
+    @include padding-top-bottom(em(80px));
+}
+
+//section zebra background-coloring
+section:nth-child(even) {
+	background-color: $offwhite;
+}
+
+//Headers
+
+h1, h2, h3, h4, h5, h6 {
+    @extend .text-center;
+}
+
+//Lists
+li {
+    padding-left: 20px;
+}
+
+
+//Links
+
+a {
+    @include hover($darkred) {
+        text-decoration: underline;
+    }
+}
+
+//hr
+
+hr {
+    background-color: $lightestgrey;
+}
+
+.sub-header {
+    @extend .text-center;
+    color: $mediumgrey;
+    font-size: 1.1em;
+    font-family: $font-family--accent;
+    margin-bottom: 1em;
+}

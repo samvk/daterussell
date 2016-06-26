@@ -1,0 +1,18 @@
+// ==========================================================================
+// HEADER
+// ==========================================================================//
+
+header {
+    @include padding-top-bottom(em(120px), em(80px));
+    min-height: 540px;
+
+    background: #E4E3E8 url("../img/header.png") no-repeat fixed;
+    
+    @include media($md){
+        color: $white;
+    }
+    
+    @include media($xs){
+        h1 { font-size: 3.4em; };
+    }
+}
