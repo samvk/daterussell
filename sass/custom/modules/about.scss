@@ -2,11 +2,15 @@
 // ABOUT
 // ==========================================================================//
 #about h4 {
+    //layout
     margin-bottom: .2em;
 }
 
 .about-list {
+    //design
     @extend .center;
-    width: 20em;
     list-style-type: square;
+    
+    //layout
+    width: 20em;
 }

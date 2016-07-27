@@ -3,63 +3,81 @@
 // ==========================================================================//
 
 nav {
-	width: 100%;
+    //text
 	font-size: 1.4rem;
-	
-	background-color: $black;
+    
+    //design
+    background-color: $black;
+
+    //layout
+    width: 100%;
 }
 
 nav a {
     &.highlighted {
+        //design
         color: $red;
     }
+
+    //design
     @include hover($white) {
         text-decoration: none;
     }
 }
 
 .nav--logo {
+    //text
+    font-size: 1.5em;
+    font-family: $font-family--logo;
+
+    //layout
 	display: block;
 	@include line-height(50px);
 	
+    //transitions
 	@include transition(font-size 200ms linear);
-	font-size: 1.5em;
-	
-	
-	font-family: $font-family--logo;
 }
 
 .nav--list a {
+    //design
     color: $lightgrey;
 }
 
 .nav--list {
+    //design
+    border-top: 1px solid $darkgrey;
+
+    //layout
 	display: none;
-	border-top: 1px solid $darkgrey;
 	
 	li {
+        //text
 		@include line-height(2em);
 		
 		//margin applied to children instead of ul to prevent "jumping" on slideToggle()
 		&:last-child {
+            //layout
 			margin-top: 0.4em;
 		}
 		
 		&:last-child {
+            //layout
 			margin-bottom: 0.4em;
 		}
 	}
 }
 
 .nav--hamburger {
+    //layout
 	top: .1em;
 	right: .5em;
-	@extend .rounded;
-	padding: 0em 0.06em;
-	border: 1px solid $trueblack;
+    padding: 0em 0.06em;
 
+    //design
+    color: $white;
+	@extend .rounded;
+	border: 1px solid $trueblack;
 	cursor: pointer;
-	color: $white;
 	@include active($lightergrey);
 }
 
@@ -69,43 +87,55 @@ nav a {
 @include media($sm-min, "min") {
 	
 	nav {
+        //design
+        background-color: transparent;
+
+        //transitions
 		@include transition(background-color 200ms linear);
-		background-color: transparent;
 		
-		&.is-small {
+        &.is-small {
+            //design
 			background-color: $black;
 			
 			.nav--logo {
+                //text
 				font-size: 1.2em;
 			}
 		}
 	}
 	
 	.nav--logo, .nav--list {
+        //layout
 		float: left;
 	}
 	
 	.nav--logo {
-		//margin-right: 1em;
+        //layout
 		width: 180px;
 		@include line-height(71px);
 	}
     
     .nav--logo a {
+        //design
         color: $lightgrey;
     }
 	
 	.nav--list {
-		border: 0;
+        //design
+        border: 0;
+
+        //layout
 		display: inline-block !important;
 		
 		li {
+            //layout
 			display: inline-block !important; //override slideToggle()
 			margin: 0;	
 		}
 	}
 	
 	.nav--hamburger {
+        //layout
 		display: none;
 	}
 }

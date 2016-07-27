@@ -3,16 +3,20 @@
 // ==========================================================================//
 
 header {
+    //design
+    background: #E4E3E8 url("../img/header.png") no-repeat fixed;
+
+    //layout
     @include padding-top-bottom(em(120px), em(80px));
     min-height: 540px;
 
-    background: #E4E3E8 url("../img/header.png") no-repeat fixed;
-    
     @include media($md){
+        //design
         color: $white;
     }
     
     @include media($xs){
+        //text
         h1 { font-size: 3.4em; };
     }
 }

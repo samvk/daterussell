@@ -6,17 +6,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="I'm Russell Blair and I need a girlfriend.">
     <meta name="author" content="Sam Kauffman">
+    <meta name="description" content="I'm Russell Blair and I need a girlfriend.">
+    <meta name="theme-color" content="#DC143C">
 
 	<title>I Want You to Date Russell!</title>
-    <link rel="icon" href="img/icon/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#DC143C">
 
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.min.css" rel="stylesheet">
 
 </head>
 
@@ -139,7 +145,7 @@
 				<hr>
 				<p class="italics sub-header">What are you waiting for?</p>
 			</div>
-			<form id="contact-form" action="php/mail.php" method="post">
+			<form id="contact-form" action="php/contact.php" method="post">
 				<div class="row">
 					<div class="col-md-6">
 						<input type="text" name="name" placeholder="Your Name *" maxlength="100" required>
@@ -181,18 +187,18 @@
 		</div>
     </footer>
 	
-	<?php include "privacy-policy.php" ?>
+	<?php include "include/privacy-policy.php" ?>
 
     <!--**************************************************-->
 
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src='js/jquery.js'><\/script>")</script>
+    <script>window.jQuery || document.write("<script src='/js/jquery.js'><\/script>")</script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Javascript -->
-    <script src="js/mail.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/js/contact.min.js"></script>
+    <script src="/js/script.min.js"></script>
 
 </body>
 

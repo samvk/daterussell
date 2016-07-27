@@ -1188,9 +1188,9 @@ footer .loud {
 }
 
 nav {
-  width: 100%;
   font-size: 1.4rem;
   background-color: #222222;
+  width: 100%;
 }
 
 nav a.highlighted {
@@ -1203,6 +1203,8 @@ nav a:hover, nav a:active {
 }
 
 .nav--logo {
+  font-size: 1.5em;
+  font-family: "Pacifico", cursive;
   display: block;
   height: 50px;
   line-height: 50px;
@@ -1210,8 +1212,6 @@ nav a:hover, nav a:active {
   -o-transition: font-size 200ms linear;
   -webkit-transition: font-size 200ms linear;
   transition: font-size 200ms linear;
-  font-size: 1.5em;
-  font-family: "Pacifico", cursive;
 }
 
 .nav--list a {
@@ -1219,8 +1219,8 @@ nav a:hover, nav a:active {
 }
 
 .nav--list {
-  display: none;
   border-top: 1px solid #333333;
+  display: none;
 }
 .nav--list li {
   height: 2em;
@@ -1237,9 +1237,9 @@ nav a:hover, nav a:active {
   top: .1em;
   right: .5em;
   padding: 0em 0.06em;
+  color: #fff;
   border: 1px solid #000;
   cursor: pointer;
-  color: #fff;
 }
 .nav--hamburger:active {
   color: #CCC;
@@ -1248,11 +1248,11 @@ nav a:hover, nav a:active {
 
 @media screen and (min-width: 768px) {
   nav {
+    background-color: transparent;
     -moz-transition: background-color 200ms linear;
     -o-transition: background-color 200ms linear;
     -webkit-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
-    background-color: transparent;
   }
   nav.is-small {
     background-color: #222222;
@@ -1289,10 +1289,10 @@ nav a:hover, nav a:active {
   }
 }
 header {
+  background: #E4E3E8 url("../img/header.png") no-repeat fixed;
   padding-top: 7.05882em;
   padding-bottom: 4.70588em;
   min-height: 540px;
-  background: #E4E3E8 url("../img/header.png") no-repeat fixed;
 }
 @media screen and (max-width: 1199px) {
   header {
@@ -1310,8 +1310,8 @@ header {
 }
 
 .about-list {
-  width: 20em;
   list-style-type: square;
+  width: 20em;
 }
 
 #details p {
@@ -1319,8 +1319,8 @@ header {
 }
 
 .details-list {
-  list-style-type: disc;
   font-size: 1.1em;
+  list-style-type: disc;
   margin-bottom: 1em;
 }
 
@@ -1338,12 +1338,12 @@ header {
 }
 
 input, textarea {
-  width: 100%;
-  height: 2.5em;
-  margin-bottom: 2.5em;
-  padding-left: .5em;
   font-size: 1em;
   border: 1px solid #CCC;
+  width: 100%;
+  height: 2.5em;
+  padding-left: .5em;
+  margin-bottom: 2.5em;
 }
 
 input {
@@ -1397,18 +1397,17 @@ footer .social-links li {
 }
 
 #privacy-policy {
-  top: 5rem;
-  width: 90%;
-  max-width: 1000px;
-  max-height: 500px;
-  max-height: 85%;
-  overflow-y: auto;
-  padding: 3rem;
   background-color: #F9F9FA;
   border: 2px solid #EEE;
   border-radius: 1.2em;
   visibility: visible;
   opacity: 1;
+  top: 5rem;
+  width: 90%;
+  max-width: 1000px;
+  max-height: 85%;
+  overflow-y: auto;
+  padding: 3rem;
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
@@ -1430,9 +1429,9 @@ footer .social-links li {
 }
 
 .privacy--close-icon {
+  cursor: pointer;
   top: 1.5rem;
   right: 1.5rem;
-  cursor: pointer;
 }
 .privacy--close-icon:hover, .privacy--close-icon:active {
   color: #000;

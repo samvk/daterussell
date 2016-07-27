@@ -2,11 +2,17 @@
 // DETAILS
 // ==========================================================================//
 #details p {
+    //design
     color: $mediumgrey;
 }
 
 .details-list {
-    list-style-type: disc;
+    //text
     font-size: 1.1em;
+
+    //design
+    list-style-type: disc;
+    
+    //layout
     margin-bottom: 1em;
 }

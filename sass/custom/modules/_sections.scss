@@ -4,27 +4,35 @@
 
 header {	
 	@include media($sm){
+        //base font-size
 		font-size: .9rem;
 	}
 }
 
 #hi {
+    //design
     @include padding-top-bottom(2em, 4em);
     
     @include media($sm){
+        //text
         font-size: .7rem;
     }
 
+    //text
     p { font-family: $font-family--accent; }
 }
 
 #contact {
     @include media ($sm-min, "min") {
+        //layout
         padding-bottom: 20em; //padding to make the section reasonably sized for autoscroll.
     }
 }
 
 footer {
+    //base font-size
     font-size: 1.3rem;
+    
+    //design
     @include palette($white, $black);
 }

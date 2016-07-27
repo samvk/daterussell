@@ -4,6 +4,7 @@
 
 //vertically center text
 footer [class*='col-'] {
+    //layout
     height: 2.5em;
     line-height: 2.4em;
 }
@@ -11,17 +12,22 @@ footer [class*='col-'] {
 //center text on mobile
 footer .footer--item {
 	@include media($sm) {
+        //layout
 		text-align: center;
 	}
 }
 
 footer .social-links {
 	li {
+        //text
 		font-size: 1.3em;
+        
+        //layout
 		padding-left: .2em;		
 	}
 	
 	@include media($sm) {
+        //layout
 		margin-left: -.6em; //fix centering issues
 	}
 }

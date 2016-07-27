@@ -1,46 +1,57 @@
 // ==========================================================================
-// CONTACT
+// CONTACT FORM
 // ==========================================================================//
 
 $input-height: 2.5em;
 
 input, textarea {
+    //text
+    font-size: 1em;
+
+    //design
+    @extend .rounded;
+    border: 1px solid $lightergrey;
+
+    //layout
 	width: 100%;
 	height: $input-height;
+    padding-left: .5em;
 	margin-bottom: $input-height;
-	padding-left: .5em;
-	font-size: 1em;
-
-	@extend .rounded;
-	border: 1px solid $lightergrey;
 }
 
 input {
+    //layout
 	height: $input-height;
 }
 
 textarea {
+    //layout
 	padding-top: .5em; //match top padding of input fields
 	height: $input-height * 5;
 }
 
 button[type="submit"] {
+    //layout
 	padding: 1.1em 1.5em;
 }
 
 .form-button--wrapper {
+    //layout
     height: 6em;
 }
 
 //Form states
 .error {
+    //design
 	color: $black;
 }
 
 .success {
+    //design
 	color: $red;
 }
 
 .form--disabled {
+    //design
     background-color: $lightestgrey;
 }

@@ -5,38 +5,44 @@
 $padding: 3rem;
 
 #privacy-policy {
+    //design
 	@include hr($darkgrey);
+    background-color: $offwhite;
+    border: 2px solid $lightestgrey;
+    border-radius: 1.2em;
+    visibility: visible;
+    opacity: 1;
 
+    //layout
 	@extend .center-abs;
 	top: 5rem;
 	width: 90%;
 	max-width: 1000px;
-	max-height: 500px;
 	max-height: 85%;
 	overflow-y: auto;
 	padding: $padding;
 
-	background-color: $offwhite;
-	border: 2px solid $lightestgrey;
-	border-radius: 1.2em;
-
-	visibility: visible;
-	opacity: 1;
+    //transitions
 	@include transition(all 200ms linear);
 }
 
 #privacy-policy.hidden {
+    //design
 	visibility: hidden;
 	opacity: 0;
 }
 
 .privacy-policy--container {
+    //layout
     max-width: 720px;
 }
 
 .privacy--close-icon {
+    //design
+    @include hover($trueblack);
+    cursor: pointer;
+
+    //layout
 	top: $padding * 0.5;
 	right: $padding * 0.5;
-	@include hover($trueblack);
-	cursor: pointer;
 }

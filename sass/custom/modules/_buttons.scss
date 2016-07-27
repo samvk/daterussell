@@ -3,10 +3,12 @@
 // ==========================================================================//
 
 .button {
+    //design
 	@extend .rounded;
 	@include palette($white, $color-primary);
+    @include hover($white, $darkred);
+
+    //layout
 	margin-top: 5px;
 	margin-bottom: 5px;
-	
-	@include hover($white, $darkred);
 }

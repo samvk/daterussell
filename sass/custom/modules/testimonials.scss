@@ -3,13 +3,16 @@
 // ==========================================================================//
 
 .girl-quote {
+    //layout
     margin-bottom: 80px;
     
     @include media($md-min, "min") {
+        //layout
         margin-top: 100px;
     }
 }
 
 .girl-pic {
+    //design
     border: 2px solid $darkgrey;
 }
