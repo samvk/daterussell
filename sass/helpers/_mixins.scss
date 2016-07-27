@@ -33,9 +33,9 @@
 
 //HOVER and ACTIVE(allow common color arguments or content)
 //includes :active until overwritten
-@mixin hover($color: NULL, $background: NULL) {
+@mixin hover($color: null, $background: null) {
 
-    @if $color != NULL OR $background != NULL {
+    @if $color != null OR $background != null {
         @extend %hover-color-transition;
     }
 
@@ -47,7 +47,7 @@
 	}
 }
 
-@mixin active($color: NULL, $background: NULL) {
+@mixin active($color: null, $background: null) {
 	&:active {
 		color: $color;
 		background-color: $background;
@@ -55,7 +55,7 @@
 	}
 }
 
-//Margin shorthand allowing NULL values(all values required)
+//Margin shorthand allowing null values(all values required)
 @mixin margin($top, $right, $bottom, $left){
 	margin-top: $top;
 	margin-right: $right;
@@ -74,7 +74,7 @@
     margin-right: $right;
 }
 
-//Padding shorthand allowing NULL values(all values required)
+//Padding shorthand allowing null values(all values required)
 @mixin padding($top, $right, $bottom, $left){
 	padding-top: $top;
 	padding-right: $right;
@@ -103,7 +103,7 @@
 	@include position(fixed, $args);
 }
 
-@mixin hr($color, $height: NULL, $width: NULL) {
+@mixin hr($color, $height: null, $width: null) {
 	hr {
 		background-color: $color;
 		height: $height;
@@ -171,7 +171,7 @@
 	border-bottom: $size $type $color;
 }
 
-@mixin palette($color: NULL, $background: NULL, $link-color: NULL, $theme-color: NULL) {
+@mixin palette($color: null, $background: null, $link-color: null, $theme-color: null) {
     color: $color;
     background-color: $background;
     

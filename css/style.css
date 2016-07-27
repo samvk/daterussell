@@ -18,7 +18,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font: inherit;
+  font-weight: inherit;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -1085,22 +1085,10 @@ body {
   color: #fff;
   background-color: #DC143C;
 }
-::selection a {
-  color: NULL;
-}
-::selection .loud {
-  color: NULL;
-}
 
 ::-moz-selection {
   color: #fff;
   background-color: #DC143C;
-}
-::-moz-selection a {
-  color: NULL;
-}
-::-moz-selection .loud {
-  color: NULL;
 }
 
 section {
@@ -1118,7 +1106,6 @@ li {
 
 a:hover, a:active {
   color: #AD0728;
-  background-color: NULL;
   text-decoration: underline;
 }
 
@@ -1138,12 +1125,6 @@ hr {
   background-color: #DC143C;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-.button a, button a {
-  color: NULL;
-}
-.button .loud, button .loud {
-  color: NULL;
 }
 .button:hover, button:hover, .button:active, button:active {
   color: #fff;
@@ -1180,12 +1161,6 @@ footer {
   color: #fff;
   background-color: #222222;
 }
-footer a {
-  color: NULL;
-}
-footer .loud {
-  color: NULL;
-}
 
 nav {
   font-size: 1.4rem;
@@ -1198,7 +1173,6 @@ nav a.highlighted {
 }
 nav a:hover, nav a:active {
   color: #fff;
-  background-color: NULL;
   text-decoration: none;
 }
 
@@ -1243,7 +1217,6 @@ nav a:hover, nav a:active {
 }
 .nav--hamburger:active {
   color: #CCC;
-  background-color: NULL;
 }
 
 @media screen and (min-width: 768px) {
@@ -1415,8 +1388,6 @@ footer .social-links li {
 }
 #privacy-policy hr {
   background-color: #333333;
-  height: NULL;
-  width: NULL;
 }
 
 #privacy-policy.hidden {
@@ -1435,7 +1406,6 @@ footer .social-links li {
 }
 .privacy--close-icon:hover, .privacy--close-icon:active {
   color: #000;
-  background-color: NULL;
 }
 
 .underline, u {
@@ -1512,8 +1482,6 @@ footer .social-links li {
   padding: 0.58824em 1.17647em;
 }
 .button:hover, button:hover, .button:active, button:active {
-  color: NULL;
-  background-color: NULL;
   text-decoration: none;
 }
 
