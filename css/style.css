@@ -1262,7 +1262,9 @@ nav a:hover, nav a:active {
   }
 }
 header {
-  background: #E4E3E8 url("../img/header.png") no-repeat fixed;
+  background-image: url("../img/header.png"), linear-gradient(#bfbdc2, #e1e0e5 36%, #e6e5ea 70%, #e6e5ea);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-top: 7.05882em;
   padding-bottom: 4.70588em;
   min-height: 540px;

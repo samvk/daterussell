@@ -4,7 +4,9 @@
 
 header {
     //design
-    background: #E4E3E8 url("../img/header.png") no-repeat fixed;
+    background-image: url("../img/header.png"), linear-gradient(#BFBDC2, #E1E0E5 36%, #E6E5EA 70%, #E6E5EA);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     //layout
     @include padding-top-bottom(em(120px), em(80px));

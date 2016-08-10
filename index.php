@@ -22,7 +22,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- Custom CSS -->
-    <link href="/css/style.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
 
 </head>
 
@@ -193,12 +193,12 @@
 
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src='/js/jquery.js'><\/script>")</script>
+    <script>window.jQuery || document.write("<script src='js/jquery.js'><\/script>")</script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Javascript -->
-    <script src="/js/contact.min.js"></script>
-    <script src="/js/script.min.js"></script>
+    <script src="js/contact.min.js"></script>
+    <script src="js/script.min.js"></script>
 
 </body>
 
