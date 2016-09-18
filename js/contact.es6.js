@@ -13,7 +13,7 @@ function submitForm(e) {
         $form.serialize(), (response) => {
         $(".contact-form--submit").fadeTo(300, 0, () => {
                 $(".contact-form--submit").replaceWith(response);
-                $form.trigger("reset").find(":input").prop("disabled", true).addClass("form--disabled");
+                $form.trigger("reset").find(":input").prop("disabled", true).addClass("form--is-disabled");
             });
         });
 }
