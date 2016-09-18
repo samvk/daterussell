@@ -62,6 +62,15 @@ $(document).ready(() => {
         });
 
     });
+    
+    /*********** Contact form submission ***********/
+
+    $("#contact-form").submitForm( response => {
+        $(".contact-form__submit").fadeTo(300, 0, () => {
+            $(".contact-form__submit").replaceWith(response);
+            $("#contact-form").trigger("reset").find(":input").prop("disabled", true).addClass("form--is-disabled");
+        });
+    });
 
     /********* Privacy Policy Modal *********/
 

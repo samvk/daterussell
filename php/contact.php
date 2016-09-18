@@ -37,7 +37,7 @@ $stmt = $db->prepare("INSERT INTO contact(name, email, phone, message) VALUES (:
 $stmt->execute(array(':name' => $name, ':email' => $email, ':phone' => $phone, ':message' => $message));
 
 // Send message to email
-$to = "samvnkauffman@gmail.com";
+$to = "mail@samvk.com";
 $email_subject = "New message from $name - DateRussell";
 $email_body = "You have received a new message from DateRussell. Here are the details...\n\nName: $name\n\nEmail: $email\n\nPhone Number: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@daterussell.com\r\n";

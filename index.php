@@ -160,7 +160,7 @@
 					</div>
 				</div>
                 <div class="form-button--wrapper">
-                    <button class="uppercase bold center contact-form--submit" type="submit">Date Me!</button>
+                    <button class="uppercase bold center contact-form__submit" type="submit">Date Me!</button>
                 </div>
 			</form>
 		</div>
