@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="author" content="Sam Kauffman">
-    <meta name="description" content="I'm Russell Blair and I need a girlfriend.">
+    <meta name="description" content="I'm Matthew Kauffman and I need a girlfriend.">
     <meta name="theme-color" content="#DC143C">
 
-	<title>I Want You to Date Russell!</title>
+	<title>I Want You to Date Matthew!</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -45,8 +45,8 @@
 
 	<header id="page-top">
        <div class="container">
-           <div class="col-lg-7 center text-center">
-                <h1 class="lhalf">I Want You to Date Russell Blair</h1>
+           <div class=" col-lg-offset-2 col-lg-8 center text-center">
+                <h1 class="lhalf">I Want You to Date Matthew Kauffman</h1>
                 <p class="h4 l3">You should date me!</p>
                 <a class="autoscroll button" href="#contact">Date me now!</a>
            </div>
@@ -56,7 +56,7 @@
     <section id="hi">
 		<div class="container">
 			<div class="col-lg-8 center">
-				<p class="h1 l0 text-center"><span class="h4">Hi,</span> I'm Russell and I need a girlfriend.</p>
+				<p class="h1 l0 text-center"><span class="h4">Hi,</span> I'm Matthew and I need a girlfriend.</p>
 			</div>
 		</div>
     </section>
@@ -67,16 +67,15 @@
 				<h2>About Me</h2>
 				<hr>
 				<p>
-				I was born in Chester, Connecticut. I studied Journalism and political science and graduated non cum laude from the University of Connecticut. I currently work at the Hartford Courant. Ever since I was 12-years-old I've wanted a girlfriend. Be it spending time at home or hanging out with my many friends, I've always felt like there was a hole inside me needing to be filled. You could be the one to fill my hole.
+				I was born in Princeton, New Jersey in 1961. In 1976, I attended Vassar College where I majored in Political Science and got a job working for the College Newspaper. After graduating, I didn't hesitate to marry the love of my life, Wendy Nelson. We moved to New Haven and I began my career starting as a legal writer for the Hartford Courant. Since then we've lived in two towns, had two kids, and been a Pulitzer Prize finalist two times. I continue my career at the Hartford Courant and enjoy my days with my loving wife, Wendy Nelson Kauffman. Please date me.
 				</p>
 
 				<h4>My interests include...</h4>
                 <ul class="about-list">
-					<li>Running</li>
-					<li>Cheering for the UConn Huskies</li>
-					<li>Watching football (Go Eagles!)</li>
-					<li>Watching baseball (Go Yankees!)</li>
-					<li>Spending time with my cats</li>
+					<li>Biking</li>
+					<li>Investigating and reporting</li>
+					<li>Building sheds</li>
+                    <li>Quoting <i>Sky High</i></li>
 				</ul>
 			</div>
 		</div>
@@ -92,8 +91,7 @@
 					<li>Appreciate a good intellectual coversation</li>
 					<li>Have a sense of humor</li>
 					<li>Physically active</li>
-					<li>Enjoy playing video games or watching <em>others</em> play video games.</li>
-					<li>Lovers of board games a plus!</li>
+					<li>Married to me</li>
 				</ul>
             </div>
         </div>
@@ -111,20 +109,20 @@
 				<hr>
 				<p class="sub-header">Don't just take my word for it...hear what others have to say!</p>
 			</div>
-			<div class="row  text-center">
+            <div class="row text-center">
                 <div class="col-md-4">
-					<img class="circle girl-pic" src="img/girl-pics/girl1.jpg" alt="">
-				</div>
-                <div class="col-md-8">
-                    <p class="h4 girl-quote">"You’re the best boyfriend ever."<br>—ex-girlfriend #1</p>
+                    <img class="circle girl-pic" src="img/girl-pics/girl1.jpg" alt="">
                 </div>
-			</div>
-			<div class="row text-center">
+                <div class="col-md-8">
+                    <p class="h4 girl-quote">"He makes me so happy."<br>—Wendy</p>
+                </div>
+            </div>
+			<div class="row  text-center">
                 <div class="col-md-4 col-md-push-8">
 					<img class="circle girl-pic" src="img/girl-pics/girl2.jpg" alt="">
 				</div>
                 <div class="col-md-8 col-md-pull-4">
-                    <p class="h4 girl-quote">"I would never cheat on you."<br>—ex-girlfriend #2</p>
+                    <p class="h4 girl-quote">"I thank every day that he picked me."<br>—Wendy</p>
                 </div>
 			</div>
 			<div class="row text-center">
@@ -132,7 +130,7 @@
 					<img class="circle girl-pic" src="img/girl-pics/girl3.jpg" alt="">
 				</div>
                 <div class="col-md-8">
-                    <p class="h4 girl-quote">"I know we'll be together forever."<br>—ex-girlfriend #3</p>
+                    <p class="h4 girl-quote">"I love [Matthew Kauffman]."<br>—Wendy</p>
                 </div>
 			</div>
 		</div>
@@ -170,14 +168,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4">
-					<p class="text-left footer--item">&copy; Date Russell <?php echo date("Y") ?></p>
+					<p class="text-left footer--item">&copy; Date Matthew <?php echo date("Y") ?></p>
 				</div>
 				<div class="col-sm-4">
 					<ul class="text-center list--inline-block footer--item social-links">
-                        <li><a href="https://www.facebook.com/rwblair89" target="_blank"><span class="fa fa-fw fa-facebook"></span></a></li>
-                        <li><a href="https://twitter.com/russellblairct" target="_blank"><span class="fa fa-fw fa-twitter"></span></a></li>
-                        <li><a href="https://www.linkedin.com/in/russell-blair-63005313" target="_blank"><span class="fa fa-fw fa-linkedin"></span></a></li>
-                        <li><a href="http://www.courant.com/hc-bio-russell-blair-staff.html" target="_blank"><span class="fa fa-fw fa-newspaper-o"></span></a></li>
+                        <li><a href="https://www.facebook.com/matthewkauffman" target="_blank"><span class="fa fa-fw fa-facebook"></span></a></li>
+                        <li><a href="https://twitter.com/matthewkauffman" target="_blank"><span class="fa fa-fw fa-twitter"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/matthewkauffman" target="_blank"><span class="fa fa-fw fa-linkedin"></span></a></li>
+                        <li><a href="http://www.courant.com/hc-matthew-kauffman-staff.html" target="_blank"><span class="fa fa-fw fa-newspaper-o"></span></a></li>
 					</ul>
 				</div>
 				<div class="col-sm-4">
@@ -186,7 +184,7 @@
 			</div>
 		</div>
     </footer>
-	
+
 	<?php include "include/privacy-policy.php" ?>
 
     <!--**************************************************-->

@@ -38,10 +38,10 @@ $stmt->execute(array(':name' => $name, ':email' => $email, ':phone' => $phone, '
 
 // Send message to email
 $to = "mail@samvk.com";
-$email_subject = "New message from $name - DateRussell";
-$email_body = "You have received a new message from DateRussell. Here are the details...\n\nName: $name\n\nEmail: $email\n\nPhone Number: $phone\n\nMessage:\n$message";
-$headers = "From: noreply@daterussell.com\r\n";
-$headers .= "Reply-To: $email_address";	
+$email_subject = "New message from $name - DateMatthew";
+$email_body = "You have received a new message from DateMatthew. Here are the details...\n\nName: $name\n\nEmail: $email\n\nPhone Number: $phone\n\nMessage:\n$message";
+$headers = "From: noreply@datematthew.com\r\n";
+$headers .= "Reply-To: $email_address";
 
 mail($to, $email_subject, $email_body, $headers);
 
